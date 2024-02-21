@@ -1,0 +1,119 @@
+/* Estilo IGUANAS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Raleway light', 'Raleway medium';
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+h1 {
+    text-align: center;
+    padding: cover;
+}
+
+.box-1 {
+    background-position: center;
+    background-size: cover;
+    background: transparent;
+    width: 100vw;
+}
+
+.head-iguana {
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 3rem;
+}
+
+.head-iguana .texto,
+#img01 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 250px;
+    margin: auto;
+    text-align: justify;
+
+}
+
+.iguana-grande {
+    width: 100vw;
+}
+
+#img01 {
+    width: 35%;
+    padding-left: 3%;
+}
+
+.img00 {
+    display: inline-block;
+    align-items: left;
+    padding: 30%;
+
+}
+
+
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img1 {
+    width: 300px;
+    height: 250px;
+    margin-right: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2 {
+    width: 300px;
+    height: 250px;
+    margin-right: 25px;
+}
+
+.img3 {
+    width: 300px;
+    height: 250px;
+}
+
+#conteiner {
+    background-color: #1e1a13;
+    font-size: 2rem;
+    text-align: center;
+    padding: 7rem;
+}
+
+#conteiner div {
+    display: inline-block;
+    width: 10rem;
+    vertical-align: middle;
+}
+
+#conteiner i {
+    margin-bottom: 2rem;
+}
+
+
+
+
+footer a {
+    text-decoration: none;
+
+}
+
+footer {
+    background: #1e1a13;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
